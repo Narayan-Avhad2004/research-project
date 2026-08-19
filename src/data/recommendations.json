@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "productId": 1,
+    "product": "Amul Taaza Milk",
+    "store": "Store A",
+    "type": "discount",
+    "suggestedDiscount": 20,
+    "reason": "Actual sales are lower than predicted sales and expiry is approaching.",
+    "status": "Pending"
+  },
+  {
+    "id": 2,
+    "productId": 2,
+    "product": "Brown Bread",
+    "store": "Store B",
+    "type": "transfer",
+    "suggestedQuantity": 5,
+    "targetStore": "Store A",
+    "reason": "Low sales at current store and higher demand at another store.",
+    "status": "Pending"
+  },
+  {
+    "id": 3,
+    "productId": 3,
+    "product": "Fresh Curd",
+    "store": "Store A",
+    "type": "discount",
+    "suggestedDiscount": 25,
+    "reason": "Remaining stock is high compared with actual sales.",
+    "status": "Pending"
+  },
+  {
+    "id": 4,
+    "productId": 4,
+    "product": "Farm Fresh Eggs",
+    "store": "Store C",
+    "type": "normal",
+    "reason": "Actual sales are close to predicted demand.",
+    "status": "Pending"
+  },
+  {
+    "id": 5,
+    "productId": 5,
+    "product": "Fresh Paneer",
+    "store": "Store B",
+    "type": "discount",
+    "suggestedDiscount": 20,
+    "reason": "Actual sales are significantly below predicted demand.",
+    "status": "Pending"
+  },
+  {
+    "id": 6,
+    "productId": 6,
+    "product": "Chocolate Cake",
+    "store": "Store C",
+    "type": "discount",
+    "suggestedDiscount": 30,
+    "reason": "Low actual sales and approaching expiry.",
+    "status": "Pending"
+  }
+]

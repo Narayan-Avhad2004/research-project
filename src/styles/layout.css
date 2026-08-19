@@ -1,0 +1,51 @@
+/* =========================
+   APPLICATION LAYOUT
+========================= */
+
+.app-layout {
+  width: 100%;
+  min-height: 100vh;
+
+  background: #f6f7fb;
+}
+
+
+/* =========================
+   MAIN AREA
+========================= */
+
+.main-area {
+  width: calc(100% - 250px);
+
+  margin-left: 250px;
+
+  min-height: 100vh;
+
+  overflow-x: hidden;
+}
+
+
+/* =========================
+   CONTENT AREA
+========================= */
+
+.content-area {
+  width: 100%;
+  min-height: calc(100vh - 76px);
+
+  overflow-x: hidden;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+
+  .main-area {
+    width: 100%;
+    margin-left: 0;
+  }
+
+}

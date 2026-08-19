@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Store A",
+    "location": "Pune - Wakad",
+    "totalProducts": 45,
+    "totalStock": 320
+  },
+  {
+    "id": 2,
+    "name": "Store B",
+    "location": "Pune - Hinjewadi",
+    "totalProducts": 38,
+    "totalStock": 275
+  },
+  {
+    "id": 3,
+    "name": "Store C",
+    "location": "Pune - Baner",
+    "totalProducts": 42,
+    "totalStock": 310
+  }
+]

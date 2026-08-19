@@ -1,0 +1,19 @@
+.expiry-timer {
+  display: inline-flex;
+  align-items: center;
+
+  color: #dc2626;
+
+  font-size: 12px;
+  font-weight: 700;
+
+  white-space: nowrap;
+}
+
+.expiry-timer.urgent {
+  color: #dc2626;
+}
+
+.expiry-timer.expired {
+  color: #6b7280;
+}

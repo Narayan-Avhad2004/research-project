@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "product": "Amul Taaza Milk",
+    "store": "Store A",
+    "date": "2026-08-19",
+    "predictedDemand": 20,
+    "confidence": 86
+  },
+  {
+    "id": 2,
+    "product": "Brown Bread",
+    "store": "Store B",
+    "date": "2026-08-19",
+    "predictedDemand": 10,
+    "confidence": 82
+  },
+  {
+    "id": 3,
+    "product": "Fresh Curd",
+    "store": "Store A",
+    "date": "2026-08-19",
+    "predictedDemand": 15,
+    "confidence": 79
+  },
+  {
+    "id": 4,
+    "product": "Farm Fresh Eggs",
+    "store": "Store C",
+    "date": "2026-08-19",
+    "predictedDemand": 25,
+    "confidence": 91
+  },
+  {
+    "id": 5,
+    "product": "Fresh Paneer",
+    "store": "Store B",
+    "date": "2026-08-19",
+    "predictedDemand": 12,
+    "confidence": 76
+  },
+  {
+    "id": 6,
+    "product": "Chocolate Cake",
+    "store": "Store C",
+    "date": "2026-08-19",
+    "predictedDemand": 6,
+    "confidence": 74
+  }
+]

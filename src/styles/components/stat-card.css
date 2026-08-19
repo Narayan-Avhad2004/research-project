@@ -1,0 +1,91 @@
+.stat-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 20px;
+
+  transition: transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.stat-card-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.stat-card-info {
+  min-width: 0;
+}
+
+.stat-card-title {
+  display: block;
+
+  color: #6b7280;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.stat-card-value {
+  margin-top: 8px;
+
+  color: #111827;
+  font-size: 28px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.stat-card-subtitle {
+  display: block;
+
+  margin-top: 10px;
+
+  color: #9ca3af;
+  font-size: 10px;
+}
+
+.stat-card-icon {
+  width: 42px;
+  height: 42px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 11px;
+
+  background: #f3f4f6;
+  color: #374151;
+
+  font-size: 18px;
+}
+
+/* Different card types */
+
+.stat-card.warning .stat-card-icon {
+  background: #fff7ed;
+  color: #ea580c;
+}
+
+.stat-card.success .stat-card-icon {
+  background: #ecfdf5;
+  color: #059669;
+}
+
+.stat-card.info .stat-card-icon {
+  background: #eff6ff;
+  color: #2563eb;
+}
+
+.stat-card.danger .stat-card-icon {
+  background: #fef2f2;
+  color: #dc2626;
+}

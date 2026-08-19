@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "date": "2026-08-19",
+    "store": "Store A",
+    "product": "Amul Taaza Milk",
+    "openingStock": 25,
+    "predictedSales": 20,
+    "actualSales": 12,
+    "remainingStock": 13
+  },
+  {
+    "id": 2,
+    "date": "2026-08-19",
+    "store": "Store B",
+    "product": "Brown Bread",
+    "openingStock": 12,
+    "predictedSales": 10,
+    "actualSales": 5,
+    "remainingStock": 7
+  },
+  {
+    "id": 3,
+    "date": "2026-08-19",
+    "store": "Store A",
+    "product": "Fresh Curd",
+    "openingStock": 18,
+    "predictedSales": 15,
+    "actualSales": 7,
+    "remainingStock": 11
+  },
+  {
+    "id": 4,
+    "date": "2026-08-19",
+    "store": "Store C",
+    "product": "Farm Fresh Eggs",
+    "openingStock": 30,
+    "predictedSales": 25,
+    "actualSales": 22,
+    "remainingStock": 8
+  },
+  {
+    "id": 5,
+    "date": "2026-08-19",
+    "store": "Store B",
+    "product": "Fresh Paneer",
+    "openingStock": 15,
+    "predictedSales": 12,
+    "actualSales": 6,
+    "remainingStock": 9
+  },
+  {
+    "id": 6,
+    "date": "2026-08-19",
+    "store": "Store C",
+    "product": "Chocolate Cake",
+    "openingStock": 8,
+    "predictedSales": 6,
+    "actualSales": 2,
+    "remainingStock": 6
+  }
+]

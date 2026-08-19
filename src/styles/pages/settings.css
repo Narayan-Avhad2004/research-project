@@ -1,0 +1,584 @@
+/* =========================
+   SETTINGS PAGE
+========================= */
+
+.settings-page {
+  width: 100%;
+  max-width: none;
+
+  padding: 30px;
+
+  overflow-x: hidden;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.settings-header {
+  margin-bottom: 25px;
+}
+
+.settings-title {
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+}
+
+.settings-title-icon {
+  width: 43px;
+  height: 43px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  border-radius: 11px;
+
+  background: #f3f4f6;
+  color: #374151;
+}
+
+.settings-header h1 {
+  color: #111827;
+
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.settings-header p {
+  margin-top: 6px;
+
+  color: #6b7280;
+
+  font-size: 12px;
+}
+
+
+/* =========================
+   SUCCESS MESSAGE
+========================= */
+
+.settings-success {
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+
+  margin-bottom: 18px;
+  padding: 11px 14px;
+
+  border: 1px solid #a7f3d0;
+  border-radius: 9px;
+
+  background: #ecfdf5;
+  color: #059669;
+
+  font-size: 10px;
+  font-weight: 600;
+}
+
+
+/* =========================
+   SETTINGS GRID
+========================= */
+
+.settings-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 16px;
+
+  margin-bottom: 16px;
+}
+
+
+/* =========================
+   PANEL
+========================= */
+
+.settings-panel {
+  min-width: 0;
+
+  padding: 20px;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+
+  background: #ffffff;
+}
+
+.settings-panel-header {
+  display: flex;
+  align-items: flex-start;
+
+  gap: 11px;
+
+  padding-bottom: 16px;
+
+  border-bottom: 1px solid #f1f2f4;
+}
+
+.settings-panel-icon {
+  width: 38px;
+  height: 38px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  border-radius: 9px;
+}
+
+.settings-panel-icon.blue {
+  background: #eff6ff;
+  color: #2563eb;
+}
+
+.settings-panel-icon.orange {
+  background: #fff7ed;
+  color: #ea580c;
+}
+
+.settings-panel-icon.green {
+  background: #ecfdf5;
+  color: #059669;
+}
+
+.settings-panel-icon.purple {
+  background: #f5f3ff;
+  color: #7c3aed;
+}
+
+.settings-panel-header h2 {
+  color: #111827;
+
+  font-size: 14px;
+}
+
+.settings-panel-header span {
+  display: block;
+
+  margin-top: 4px;
+
+  color: #9ca3af;
+
+  font-size: 9px;
+}
+
+
+/* =========================
+   FIELD
+========================= */
+
+.settings-field {
+  margin-top: 18px;
+}
+
+.settings-field label {
+  display: block;
+
+  margin-bottom: 8px;
+
+  color: #374151;
+
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.settings-input-row {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+}
+
+.settings-input-row input {
+  width: 100%;
+
+  padding: 10px 11px;
+
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+
+  outline: none;
+
+  color: #374151;
+
+  background: #ffffff;
+
+  font-size: 10px;
+
+  transition: border-color 0.2s ease;
+}
+
+.settings-input-row input:focus {
+  border-color: #2563eb;
+}
+
+.settings-input-row span {
+  flex-shrink: 0;
+
+  color: #6b7280;
+
+  font-size: 9px;
+}
+
+.settings-field small {
+  display: block;
+
+  margin-top: 7px;
+
+  color: #9ca3af;
+
+  font-size: 8px;
+
+  line-height: 1.5;
+}
+
+
+/* =========================
+   TOGGLE
+========================= */
+
+.settings-toggle-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 15px;
+
+  margin-top: 18px;
+  padding-bottom: 16px;
+
+  border-bottom: 1px solid #f1f2f4;
+}
+
+.settings-toggle-row > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-toggle-row strong {
+  color: #374151;
+
+  font-size: 10px;
+}
+
+.settings-toggle-row span {
+  max-width: 400px;
+
+  margin-top: 5px;
+
+  color: #9ca3af;
+
+  font-size: 8px;
+
+  line-height: 1.5;
+}
+
+
+/* Toggle button */
+
+.settings-toggle {
+  position: relative;
+
+  width: 42px;
+  height: 23px;
+
+  flex-shrink: 0;
+
+  padding: 0;
+
+  border: none;
+  border-radius: 20px;
+
+  background: #d1d5db;
+
+  cursor: pointer;
+
+  transition: background 0.2s ease;
+}
+
+.settings-toggle span {
+  position: absolute;
+
+  top: 3px;
+  left: 3px;
+
+  width: 17px;
+  height: 17px;
+
+  margin: 0;
+
+  border-radius: 50%;
+
+  background: #ffffff;
+
+  transition: transform 0.2s ease;
+}
+
+.settings-toggle.active {
+  background: #2563eb;
+}
+
+.settings-toggle.active span {
+  transform: translateX(19px);
+}
+
+
+/* =========================
+   TRANSFER RULE
+========================= */
+
+.settings-rule {
+  display: flex;
+  flex-direction: column;
+
+  gap: 5px;
+
+  margin-top: 16px;
+  padding: 11px;
+
+  border-radius: 8px;
+
+  background: #f8fafc;
+}
+
+.settings-rule strong {
+  color: #374151;
+
+  font-size: 9px;
+}
+
+.settings-rule span {
+  color: #9ca3af;
+
+  font-size: 8px;
+
+  line-height: 1.5;
+}
+
+
+/* =========================
+   NOTIFICATIONS
+========================= */
+
+.settings-notification-list {
+  display: flex;
+  flex-direction: column;
+
+  gap: 8px;
+
+  margin-top: 16px;
+}
+
+.settings-notification-list > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 10px;
+
+  padding: 9px 10px;
+
+  border-radius: 7px;
+
+  background: #f9fafb;
+}
+
+.settings-notification-list span {
+  color: #6b7280;
+
+  font-size: 8px;
+}
+
+.settings-notification-list strong {
+  color: #059669;
+
+  font-size: 8px;
+}
+
+
+/* =========================
+   RESEARCH PANEL
+========================= */
+
+.settings-research-panel {
+  margin-bottom: 16px;
+}
+
+.settings-rules-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, minmax(0, 1fr));
+
+  gap: 12px;
+
+  margin-top: 20px;
+}
+
+.settings-rules-grid > div {
+  min-width: 0;
+
+  padding: 14px;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+
+  background: #fafafa;
+}
+
+.settings-rules-grid strong {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 27px;
+  height: 27px;
+
+  border-radius: 7px;
+
+  background: #eff6ff;
+  color: #2563eb;
+
+  font-size: 9px;
+}
+
+.settings-rules-grid span {
+  display: block;
+
+  margin-top: 10px;
+
+  color: #374151;
+
+  font-size: 9px;
+  font-weight: 600;
+}
+
+.settings-rules-grid small {
+  display: block;
+
+  margin-top: 5px;
+
+  color: #9ca3af;
+
+  font-size: 8px;
+
+  line-height: 1.5;
+}
+
+
+/* =========================
+   ACTIONS
+========================= */
+
+.settings-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  gap: 9px;
+
+  margin-top: 5px;
+}
+
+.settings-actions button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 6px;
+
+  padding: 10px 15px;
+
+  border-radius: 8px;
+
+  font-size: 9px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.settings-reset-button {
+  border: 1px solid #d1d5db;
+
+  background: #ffffff;
+  color: #6b7280;
+}
+
+.settings-reset-button:hover {
+  background: #f9fafb;
+}
+
+.settings-save-button {
+  border: 1px solid #2563eb;
+
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.settings-save-button:hover {
+  background: #1d4ed8;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 1100px) {
+
+  .settings-grid {
+    grid-template-columns:
+      1fr;
+  }
+
+  .settings-rules-grid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+}
+
+
+@media (max-width: 700px) {
+
+  .settings-page {
+    padding: 20px;
+  }
+
+  .settings-rules-grid {
+    grid-template-columns:
+      1fr;
+  }
+
+}
+
+
+@media (max-width: 500px) {
+
+  .settings-actions {
+    flex-direction: column-reverse;
+
+    align-items: stretch;
+  }
+
+  .settings-actions button {
+    width: 100%;
+  }
+
+}

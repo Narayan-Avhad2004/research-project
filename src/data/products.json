@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Amul Taaza Milk",
+    "category": "Dairy",
+    "store": "Pimpri Store",
+    "price": 32,
+    "stock": 42,
+    "actualSales": 21,
+    "predictedSales": 35,
+    "expiryDate": "2026-08-20T18:30:00",
+    "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Fresh Paneer",
+    "category": "Dairy",
+    "store": "Alandi Store",
+    "price": 95,
+    "stock": 28,
+    "actualSales": 12,
+    "predictedSales": 25,
+    "expiryDate": "2026-08-20T22:00:00",
+    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Fresh Bread",
+    "category": "Bakery",
+    "store": "Pune Store",
+    "price": 45,
+    "stock": 35,
+    "actualSales": 18,
+    "predictedSales": 30,
+    "expiryDate": "2026-08-21T12:00:00",
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Greek Yogurt",
+    "category": "Dairy",
+    "store": "Pimpri Store",
+    "price": 75,
+    "stock": 30,
+    "actualSales": 19,
+    "predictedSales": 24,
+    "expiryDate": "2026-08-21T16:00:00",
+    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Fresh Strawberries",
+    "category": "Fruits",
+    "store": "Alandi Store",
+    "price": 120,
+    "stock": 16,
+    "actualSales": 8,
+    "predictedSales": 20,
+    "expiryDate": "2026-08-20T20:00:00",
+    "image": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 6,
+    "name": "Fresh Orange Juice",
+    "category": "Beverages",
+    "store": "Pune Store",
+    "price": 90,
+    "stock": 31,
+    "actualSales": 29,
+    "predictedSales": 27,
+    "expiryDate": "2026-08-23T18:00:00",
+    "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 7,
+    "name": "Fresh Curd",
+    "category": "Dairy",
+    "store": "Pimpri Store",
+    "price": 40,
+    "stock": 25,
+    "actualSales": 14,
+    "predictedSales": 22,
+    "expiryDate": "2026-08-21T14:00:00",
+    "image": "https://images.unsplash.com/photo-1571212515416-fef01fc43637?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 8,
+    "name": "Apple",
+    "category": "Fruits",
+    "store": "Pune Store",
+    "price": 160,
+    "stock": 40,
+    "actualSales": 31,
+    "predictedSales": 35,
+    "expiryDate": "2026-08-25T18:00:00",
+    "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=600&q=80"
+  }
+]
