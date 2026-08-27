@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
   Switch,
   Route,
   Redirect,
@@ -34,149 +33,135 @@ import "./styles/global.css";
 
 function App() {
   return (
-    <Router>
+    <DashboardLayout>
 
-      <DashboardLayout>
+      <Switch>
 
-        <Switch>
+        {/* =========================
+            DASHBOARD
+        ========================= */}
 
-          {/* =========================
-              DASHBOARD
-          ========================= */}
+        <Route
+          exact
+          path="/dashboard"
+          component={Dashboard}
+        />
 
-          <Route
-            exact
-            path="/dashboard"
-            component={Dashboard}
-          />
+        {/* =========================
+            INVENTORY
+        ========================= */}
 
+        <Route
+          exact
+          path="/inventory"
+          component={Inventory}
+        />
 
-          {/* =========================
-              INVENTORY
-          ========================= */}
+        {/* =========================
+            SALES
+        ========================= */}
 
-          <Route
-            exact
-            path="/inventory"
-            component={Inventory}
-          />
+        <Route
+          exact
+          path="/sales"
+          component={Sales}
+        />
 
+        {/* =========================
+            PREDICTIONS
+        ========================= */}
 
-          {/* =========================
-              SALES
-          ========================= */}
+        <Route
+          exact
+          path="/predictions"
+          component={Predictions}
+        />
 
-          <Route
-            exact
-            path="/sales"
-            component={Sales}
-          />
+        {/* =========================
+            NEAR EXPIRY
+        ========================= */}
 
+        <Route
+          exact
+          path="/near-expiry"
+          component={NearExpiry}
+        />
 
-          {/* =========================
-              PREDICTIONS
-          ========================= */}
+        {/* =========================
+            DISCOUNTS
+        ========================= */}
 
-          <Route
-            exact
-            path="/predictions"
-            component={Predictions}
-          />
+        <Route
+          exact
+          path="/discounts"
+          component={Discounts}
+        />
 
+        {/* =========================
+            TRANSFERS
+        ========================= */}
 
-          {/* =========================
-              NEAR EXPIRY
-          ========================= */}
+        <Route
+          exact
+          path="/transfers"
+          component={Transfers}
+        />
 
-          <Route
-            exact
-            path="/near-expiry"
-            component={NearExpiry}
-          />
+        {/* =========================
+            REPORTS
+        ========================= */}
 
+        <Route
+          exact
+          path="/reports"
+          component={Reports}
+        />
 
-          {/* =========================
-              DISCOUNTS
-          ========================= */}
+        {/* =========================
+            SETTINGS
+        ========================= */}
 
-          <Route
-            exact
-            path="/discounts"
-            component={Discounts}
-          />
+        <Route
+          exact
+          path="/settings"
+          component={Settings}
+        />
 
+        {/* =========================
+            DEFAULT ROUTE
+        ========================= */}
 
-          {/* =========================
-              TRANSFERS
-          ========================= */}
+        <Redirect
+          exact
+          from="/"
+          to="/dashboard"
+        />
 
-          <Route
-            exact
-            path="/transfers"
-            component={Transfers}
-          />
+        {/* =========================
+            PAGE NOT FOUND
+        ========================= */}
 
+        <Route>
+          <div
+            style={{
+              padding: "40px",
+              textAlign: "center",
+            }}
+          >
+            <h2>
+              Page Not Found
+            </h2>
 
-          {/* =========================
-              REPORTS
-          ========================= */}
+            <p>
+              The page you are looking for
+              does not exist.
+            </p>
+          </div>
+        </Route>
 
-          <Route
-            exact
-            path="/reports"
-            component={Reports}
-          />
+      </Switch>
 
-
-          {/* =========================
-              SETTINGS
-          ========================= */}
-
-          <Route
-            exact
-            path="/settings"
-            component={Settings}
-          />
-
-
-          {/* =========================
-              DEFAULT ROUTE
-          ========================= */}
-
-          <Redirect
-            exact
-            from="/"
-            to="/dashboard"
-          />
-
-
-          {/* =========================
-              PAGE NOT FOUND
-          ========================= */}
-
-          <Route>
-            <div
-              style={{
-                padding: "40px",
-                textAlign: "center",
-              }}
-            >
-              <h2>
-                Page Not Found
-              </h2>
-
-              <p>
-                The page you are looking for
-                does not exist.
-              </p>
-            </div>
-          </Route>
-
-        </Switch>
-
-      </DashboardLayout>
-
-    </Router>
+    </DashboardLayout>
   );
 }
 
